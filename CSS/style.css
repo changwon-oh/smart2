@@ -1,0 +1,558 @@
+/* CSS Document */
+
+body, select, div, input, option, p, a,table {
+			font-family: µž¿ò;
+			font-size: 12px;
+			color: #818181;
+			line-height: 16px;
+			text-decoration: none;
+			word-break:break-all;
+			}
+
+body {
+			margin-left: 0px;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			}
+
+form { display: inline }
+img { border: 0px}
+
+A, A:link, A:active, A:visited { color: #818181; text-decoration: none; }
+A:hover { color: #696969; text-decoration: underline; }
+
+.common-td-top2 {
+	padding-top: 2px;
+}
+.title1 {
+	font-family: "µž¿ò";
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	padding-bottom: 4px;
+}
+.pic03 {
+	text-align: center;
+	vertical-align: top;
+	padding: 12px;
+}
+.pic03-text1 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: 84cde5;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+.pic03-text2 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: b8e977;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+.pic03-text3 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: ffba57;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+.pic03-text4 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: ffcbc3;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+.pic03-text5 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: dabee6;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+.pic03-text6 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: 5cbea5;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+.pic03-text7 {
+	font-weight: bold;
+	color: #666666;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: c0c6e5;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
+
+.number {
+	font-weight: normal;
+	font-family:verdana,dotum; 
+	color:#767676; 
+	font-size:8pt; 
+	letter-spacing:0
+}
+.pic04 {
+	padding-top: 6px;
+	text-align: center;
+	padding-bottom: 4px;
+}
+.pic03-01 {
+	border: 2px solid #FFFFFF;;
+}
+.pic05 {
+	font-size: 11px;	line-height: 13px;    padding-top: 6px;    padding-bottom: 7px;    font-family: "µž¿ò";
+}
+
+
+@charset "utf-8";
+
+/*기본*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: 'µž¿ò', Dotum, '±Œž²', Gulim, AppleGothic, Sans-serif; font-size: 12px; color: #547991;
+}
+
+
+img {
+	border: 0px;
+}
+
+
+.Hand {
+	cursor:hand;
+}
+
+
+select {
+	border:1px solid #dadada; background-color: #FFFFFF; font-family:µž¿ò;font-size:11px;color:#547991;
+}
+
+
+textarea {
+	border:1px solid #dadada
+	}
+
+input {
+	border:1px background-color: #FFFFFF; 
+}
+
+
+
+/*****************************************************/
+/*                                                 메인							      */
+/*****************************************************/
+
+
+/* 테이블 */
+
+.table_basic {
+	border-collapse: collapse;
+    border: 1px solid #eaeff2;
+}
+
+
+.table01_title {
+
+	font-family:돋음;font-size:12px;color:#547991;font-weight: bold;
+	background-color: #eff4f7;
+	text-align: center;
+}
+
+.table01_titleBlack {
+
+	font-family:돋음;font-size:12px;color:#666666;font-weight: bold;
+	background-color: #ffffff;
+	text-align: left;
+}
+	
+.table01_titleWhite {
+
+	font-family:돋음;font-size:12px;color:#547991;font-weight: bold;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+.table01_titleOrange {
+
+	font-family:돋음;font-size:12px;color:#FF6600;font-weight: bold;
+	background-color: #ffffff;
+	text-align: left;
+}
+
+.table01_01 {
+	font-family:돋음, font-size:12px; color:#f7652c; font-weight: bold; 
+	text-align: center;
+    border: 1px solid #eaeff2;
+
+}
+
+
+.table01_02 {
+	font-family:돋음;font-size:12px;color:#1f9fae;font-weight: bold;
+	text-align: center;
+     border: 1px solid #eaeff2;
+	
+}
+
+
+.table01_03 {
+	font-family:돋음;font-size:12px;color:#547991;font-weight: bold;
+	text-align: center;
+	border: 1px solid #eaeff2;
+}
+
+
+.table02_01 {
+	font-family:돋음;font-size:12px;color:#547991;
+	text-align: center;
+	line-height: 35px;
+}
+
+.table02_list {
+	font-family:돋음;font-size:12px;color:#547991;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+.table_search {
+	border-collapse: collapse;
+    border: 3px solid #eaeff2;
+}
+
+
+
+
+/* 텍스트 */
+
+.text_w {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.text_small {
+	font-family:돋음;
+	font-size:11px;
+}
+
+.text_bold {
+	font-weight: bold;
+	color: #547991;
+}
+
+.text_bold2 {
+	font-weight: bold;
+	color: #1f9fae;
+}
+
+
+.num {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:link {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:hover {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #f7652c;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:visited {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:active {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.table02_title {
+
+	font-family:돋음;font-size:20px;color:#2b5f86;font-weight: bold;
+	background-color: #f4f4f4;
+	text-align: center;
+}
+
+.table02_04 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #e3e3e3;
+	text-align: center;
+}
+
+.table02_04_1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #b4c09b;
+	text-align: center;
+}
+
+.table02_02 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #f8eecc;
+	text-align: center;
+}
+
+.table02_02_1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #64b7c6;
+	text-align: center;
+}
+
+.table02_03 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #cce3ec;
+	text-align: center;
+}
+
+.table02_03_1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #9bacbc;
+	text-align: center;
+}
+
+.table02_05 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #f3dcd2;
+	text-align: center;
+}
+
+.table02_06 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #d4f0d8;
+	text-align: center;
+}
+
+.table03_01 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #b4c09b;
+	text-align: center;
+}
+
+.table03_02 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #64b7c6;
+	text-align: center;
+}
+
+.table03_03 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #9bacbc;
+	text-align: center;
+}
+
+
+.table04_01 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #e3e3e3;
+	text-align: center;
+}
+
+.table04_02 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #ccdde1;
+	text-align: center;
+}
+
+.table04_03 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #e0ead3;
+	text-align: center;
+}
+
+.table04_04 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	color: #2b5f86;
+	font-weight: bold;
+	background-color: #eaded3;
+	text-align: center;
+}
+.text_basic {
+	font-family: "돋음", "돋움체";
+	font-size: 18px;
+	color: #2b5f86;
+}
+
+.text_n01 {
+	font-family: "돋음", "돋움체";
+	font-size: 20px;
+	font-weight: bold;
+	color: #2b5f86;
+	text-align: center;
+}
+
+.text_ntext01 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* 텍스트 */
+
+.text_w {
+	font-weight: bold;
+	color: #FFF;
+}
+
+.text_basic {
+	font-family: "돋음", "돋움체";
+	font-size: 18px;
+	color: #2b5f86;
+}
+
+.text_n01 {
+	font-family: "돋음", "돋움체";
+	font-size: 14px;
+	font-weight: bold;
+	color: #2b5f86;
+	text-align: center;
+}
+
+.text_ntext01 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2b5f86;
+	text-align: center;
+}
+
+
+.text_small {
+	font-family:돋음;
+	font-size:11px;
+}
+
+.text_bold {
+	font-weight: bold;
+	color: #547991;
+}
+
+.text_bold2 {
+	font-weight: bold;
+	color: #1f9fae;
+}
+
+
+.num {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:link {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:hover {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #f7652c;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:visited {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.num a:active {
+	font-family: "돋음", "돋움체";
+	font-size: 12px;
+	color: #547991;
+	font-weight: bold;
+	text-decoration:none;
+}

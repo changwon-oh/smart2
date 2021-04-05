@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body style="margin:10px 0 10px 0, padding:0; background-color:#e5f0f8;">
+<script language="javascript">
+document.write("<div style='width:450px;text-align:center;'><font size='6' color='red'><b>보고시간이 초과되었습니다.</b></font></div><br/><div style='width:450px;text-align:center;'><span id='remTm'>5</span>초후 자동으로 닫힘니다.</div><br/><div style='width:450px;text-align:center;'><input type='button' value='확인' onclick='self.close()' style='cursor:pointer;'></div>");
+setInterval(remTm,1000);
+
+var term=5;
+function remTm(){
+	document.getElementById('remTm').innerText = --term;
+	if(term == 0) self.close();
+}
+</script>
+</body>
+</html>
